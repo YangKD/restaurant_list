@@ -1,2 +1,9 @@
-/node_modules
+# npm
+node_modules
+*.log
+*.gz
+
+# dotenv
+.env
+
 .DS_Store
