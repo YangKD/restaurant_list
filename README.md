@@ -13,6 +13,9 @@
 * 瀏覽餐廳的詳細資訊
 * 連結餐廳的地址到Goole地圖
 * 可以搜尋特定的餐廳
+* 新增餐廳
+* 編輯餐廳
+* 刪除餐廳
 
 # 開始使用
 
@@ -43,3 +46,5 @@
  * Express-Handlebars 3.0.0
  * Bootstrap
  * Font-awesome
+ * MongoDB
+ * mongoose 6.0.5
