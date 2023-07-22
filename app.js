@@ -1,4 +1,5 @@
 const express = require('express')
+const session = require('express-session')
 const exphbs = require('express-handlebars')
 // load restaurant.json 
 const Restaurant = require('./models/restaurants')
@@ -17,6 +18,14 @@ const port = 3000
 // setting templete engine
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }))
 app.set('view engine', 'handlebars')
+
+app.use(session({
+  secret: 'ThisIsMySecret',
+  resave: false,
+  saveUninitialized: true
+}))
+
+
 // setting static files
 app.use(express.static('public'))
 app.use(express.urlencoded({ extended:true }))
