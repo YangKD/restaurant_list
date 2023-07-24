@@ -16,6 +16,8 @@
 * 新增餐廳
 * 編輯餐廳
 * 刪除餐廳
+* 可註冊帳號密碼,使用Facebook登入
+* 具備安全認證,個別帳號只能看到自己創建的頁面
 
 # 開始使用
 
@@ -38,6 +40,13 @@
 6.若欲暫停使用
 
  `ctrl + c`
+
+7.啟動種子帳號
+ `npm run seed`
+
+8.預設帳號密碼
+Email : user1@example.com  密碼 : 12345678
+Email : user2@example.com  密碼 : 12345678
  
  # 開發工具
  
@@ -48,3 +57,8 @@
  * Font-awesome
  * MongoDB
  * mongoose 6.0.5
+ * dotenv 16.0.3
+ * bcryptjs 2.4.3
+ * connect-flash 0.1.1
+ * passport 0.4.1
+ * passport-facebook 3.0.0
