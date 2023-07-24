@@ -1,4 +1,4 @@
-![image](https://github.com/YangKD/restaurant_list/blob/main/public/images/snapshot3.png)
+![image](https://[github.com/YangKD/restaurant_list/blob/main/public/images/snapshot3.png])
 
 # 我的最愛餐廳清單
 
